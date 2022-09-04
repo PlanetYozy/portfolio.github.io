@@ -1,0 +1,145 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: auto;
+}
+
+h1, h2, p
+{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    padding-left: 300px;
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.section-title
+{
+    text-align: center;
+}
+
+p
+{
+    display: flex;
+    text-align: left;
+    padding-left: 300px; 
+    word-wrap: normal; 
+    color: azure;
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+a
+{
+    display: flex;
+    text-align: right;
+    padding-left: 2000px; 
+    color: azure;
+    justify-content: space-between;  
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    position: relative;
+}
+
+img
+{
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    padding-left: 0px;
+}
+
+button
+{
+    background-color: burlywood;
+    margin-bottom: 500px;
+    margin-left: 450px;
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.header
+{
+    background-color: #1F2937;
+    color: azure;
+}
+
+.header img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    background: gold;
+    opacity: 0.4;
+  }
+
+.photo-name
+{
+    color: black;
+}
+.section-title
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 905px;
+    font-size: 60px;
+}
+.mid
+{
+    position: relative;
+    padding: 6px 3vw;
+    margin: auto;
+    margin-bottom: 100px;  
+}
+
+.photo-container
+{
+    display: flex;
+    justify-content: space-between;
+}
+.photo-card
+{
+    border: 15px solid gold;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.photo-img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bottom-section
+{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    padding-left: 600px;
+    font-size: 50px;
+    background-color:gray;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: left;
+    margin-top: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+footer
+{
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    margin-top: 200px;
+    font-size: large;
+}
